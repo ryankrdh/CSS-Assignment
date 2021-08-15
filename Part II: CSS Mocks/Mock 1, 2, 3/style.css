@@ -1,0 +1,101 @@
+/* Mock 1 */
+button {
+  color: white;
+  background-color: rgb(83, 159, 246);
+  font-size: 1.2em;
+  border-radius: 5px;
+  border: 0;
+  margin: 50px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  background-color: rgb(50, 104, 164);
+  cursor: pointer;
+}
+
+/* Mock 2 */
+.portrait {
+  margin: auto;
+  width: 330px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px 1px #c7c7c7;
+}
+
+.portrait img {
+  /* box-sizing: border-box; */
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  vertical-align: middle;
+}
+
+.title {
+  /* box-sizing: border-box; */
+  background-color: #ebebeb;
+  font-size: 1.2em;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.description {
+  /* box-sizing: border-box; */
+  background-color: #ebebeb;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  font-size: 12px;
+  height: 30.2%;
+  border-top: 1px solid #cacaca;
+}
+
+/* Mock 3 */
+
+.banner {
+  width: 70%;
+  height: 180px;
+  padding: 0px 70px 0px 70px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon {
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  border: 4px solid peachpuff;
+}
+
+.icon img {
+  width: 150px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.icon .caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 150px;
+  transition: top 0.4s;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  top: 180px;
+  font-size: 2.2rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.icon:hover .caption {
+  top: 0;
+}
